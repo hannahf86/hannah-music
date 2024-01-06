@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #faf7f6;
+}
+
+
 /* LAYOUT */
 #header {
     background-color: #1b1435;
@@ -28,6 +38,8 @@ a:hover {
     transform: scale(1.2);
 }
 
+
+
 /* TYPOGRAPHY */
 h1 {
     font-family: 'Maven Pro', sans-serif;
@@ -35,3 +47,9 @@ h1 {
     font-size: 2em;
 }
 
+h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 1.8em;
+    text-align: center;
+}

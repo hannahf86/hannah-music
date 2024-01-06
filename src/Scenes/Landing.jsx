@@ -1,7 +1,16 @@
+// IMAGES
+import background from "../Assets/music-bg.png";
+
+const styles = {
+  background: "w-screen flex justify-end",
+};
+
 const Landing = () => {
   return (
     <div id="/">
-      <h1>Landing</h1>
+      <div className={styles.background}>
+        <img src={background} />
+      </div>
     </div>
   );
 };
