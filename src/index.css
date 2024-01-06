@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* LAYOUT */
+#header {
+    background-color: #1b1435;
+    color: #ffffff;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#nav {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    display: flex;
+    gap: 4em;
+}
+
+a:hover {
+    color: #dd9613;
+    transform: scale(1.2);
+}
+
+/* TYPOGRAPHY */
+h1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
