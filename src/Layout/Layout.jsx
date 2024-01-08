@@ -1,9 +1,14 @@
+// RRD
 import { NavLink, Outlet } from "react-router-dom";
+
+// IMAGES
+// import logo from "../Assets/logo-icon.png";
 
 const Layout = () => {
   return (
     <>
       <header id="header">
+        {/* <img src={logo} width={50} /> */}
         <h1>Hannah Feehan | Music Teacher</h1>
         <nav id="nav">
           <NavLink to="/">Home</NavLink>
