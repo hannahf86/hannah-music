@@ -1,22 +1,20 @@
 // RRD
-import { NavLink, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
-// IMAGES
-// import logo from "../Assets/logo-icon.png";
+// COMPONENTS
+import Nav from "../Components/Nav";
 
 const Layout = () => {
+  const styles = {
+    background: "bg-[#0c3649] text-white ",
+    title: "pt-16 pb-6 text-center ",
+  };
+
   return (
     <>
-      <header id="header">
-        {/* <img src={logo} width={50} /> */}
-        <h1>Hannah Feehan | Music Teacher</h1>
-        <nav id="nav">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="about">About</NavLink>
-          <NavLink to="news">News</NavLink>
-          <NavLink to="teaching">Teaching</NavLink>
-          <NavLink to="contact">Contact</NavLink>
-        </nav>
+      <header className={styles.background}>
+        <h1 className={styles.title}>Hannah Feehan | Music Teacher</h1>
+        <Nav />
       </header>
 
       <main>
