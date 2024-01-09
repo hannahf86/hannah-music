@@ -1,7 +1,10 @@
 import { NavLink } from "react-router-dom";
 
 // ICONS
-import { HiHome, HiBeaker, HiDesktopComputer, HiMail } from "react-icons/hi";
+import { FaNewspaper } from "react-icons/fa6";
+import { FaUserGraduate } from "react-icons/fa";
+import { HiHome, HiMail } from "react-icons/hi";
+import { HiMiniMusicalNote } from "react-icons/hi2";
 
 const Nav = () => {
   const styles = {
@@ -27,12 +30,16 @@ const Nav = () => {
             <HiHome size={28} className={styles.icon} />
           </NavLink>
 
-          <NavLink href="/#projects">
-            <HiBeaker size={25} className={styles.icon} />
+          <NavLink href="/#news">
+            <FaNewspaper size={25} className={styles.icon} />
           </NavLink>
 
-          <NavLink href="/#skills">
-            <HiDesktopComputer size={28} className={styles.icon} />
+          <NavLink href="/#about">
+            <FaUserGraduate size={28} className={styles.icon} />
+          </NavLink>
+
+          <NavLink href="/#teaching">
+            <HiMiniMusicalNote size={28} className={styles.icon} />
           </NavLink>
 
           <NavLink href="/#contact">
@@ -56,11 +63,10 @@ const Nav = () => {
           </div>
 
           <div className={desktopStyles.icons}>
-            <NavLink href="/#projects">
-              {" "}
+            <NavLink href="/#news">
               <h2 className={desktopStyles.text}>
                 <div className="mr-3">
-                  <HiBeaker />
+                  <FaNewspaper />
                 </div>
                 NEWS
               </h2>
@@ -68,10 +74,10 @@ const Nav = () => {
           </div>
 
           <div className={desktopStyles.icons}>
-            <NavLink href="/#skills">
+            <NavLink href="/#about">
               <h2 className={desktopStyles.text}>
                 <div className="mr-3">
-                  <HiDesktopComputer />
+                  <FaUserGraduate />
                 </div>
                 ABOUT
               </h2>
@@ -79,10 +85,10 @@ const Nav = () => {
           </div>
 
           <div className={desktopStyles.icons}>
-            <NavLink href="/#skills">
+            <NavLink href="/#teaching">
               <h2 className={desktopStyles.text}>
                 <div className="mr-3">
-                  <HiDesktopComputer />
+                  <HiMiniMusicalNote />
                 </div>
                 TEACHING
               </h2>

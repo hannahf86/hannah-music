@@ -7,13 +7,14 @@ import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
 // IMAGES
-import guitar01 from "../Assets/guitar-01.jpeg";
+import dates from "../Assets/dates.png";
 import isaac from "../Assets/isaac.png";
+import newyear from "../Assets/newYear.png";
 
 function Carousel() {
   const styles = {
     image: "justify-center p-4 ",
-    description: "px-4 pt-2 text-justify",
+    description: "px-4 pt-2 text-center",
   };
 
   const settings = {
@@ -29,29 +30,15 @@ function Carousel() {
       <Slider {...settings}>
         <div>
           <Link href="#">
-            <img src={isaac} className={styles.image} />
+            <img src={newyear} className={styles.image} />
           </Link>
           <Link href="#">
-            <h3>Congratulations to Isaac!</h3>
+            <h3>Bring on 2024!</h3>
           </Link>
           <p className={styles.description}>
-            Isaac has been offered at all the conservatoires he applied for,
-            finally accepting a place at The Royal Academy of Music with a
-            scholarship
-          </p>
-        </div>
-
-        <div>
-          <Link href="#">
-            <img src={guitar01} className={styles.image} />
-          </Link>
-          <Link href="#">
-            <h3>Congratulations to Isaac!</h3>
-          </Link>
-          <p className={styles.description}>
-            Isaac has been offered at all the conservatoires he applied for,
-            finally accepting a place at The Royal Academy of Music with a
-            scholarship
+            Competition wins, consistently high exam results <br />
+            and national ensemble placements... what a year 2023 was! <br />
+            Take a look to see what 2024 will have in store!
           </p>
         </div>
 
@@ -60,26 +47,23 @@ function Carousel() {
             <img src={isaac} className={styles.image} />
           </Link>
           <Link href="#">
-            <h3>Congratulations to Isaac!</h3>
+            <h3>Conservatoire success for Isaac!</h3>
           </Link>
           <p className={styles.description}>
-            Isaac has been offered at all the conservatoires he applied for,
-            finally accepting a place at The Royal Academy of Music with a
-            scholarship
+            Isaac has accepted a scholarship offer at The Royal Academy of Music
+            to study with Michael Lewin and Stephen Goss.
           </p>
         </div>
 
         <div>
           <Link href="#">
-            <img src={isaac} className={styles.image} />
+            <img src={dates} className={styles.image} />
           </Link>
           <Link href="#">
-            <h3>Congratulations to Isaac!</h3>
+            <h3>Important dates for your musical diaries</h3>
           </Link>
           <p className={styles.description}>
-            Isaac has been offered at all the conservatoires he applied for,
-            finally accepting a place at The Royal Academy of Music with a
-            scholarship
+            This will be an ever evolving list so keep an eye on it!
           </p>
         </div>
       </Slider>

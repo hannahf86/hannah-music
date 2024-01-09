@@ -6,7 +6,7 @@ import Carousel from "../Components/Carousel";
 
 const styles = {
   background: " relative w-full h-screen flex justify-end",
-  carousel: "absolute w-4/12 my-16 ml-32 top-48 bg-white pb-12 rounded-lg",
+  carousel: "absolute w-4/12 my-16 ml-32 top-80 bg-white pb-12 rounded-lg",
 };
 
 const Landing = () => {
