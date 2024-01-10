@@ -3,9 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// REACT-ROUTER-DOM
-import { Link } from "react-router-dom";
-
 // IMAGES
 import dates from "../Assets/dates.png";
 import isaac from "../Assets/isaac.png";
@@ -14,6 +11,7 @@ import newyear from "../Assets/newYear.png";
 function Carousel() {
   const styles = {
     image: "justify-center p-4 ",
+    title: "text-center font-bold",
     description: "px-4 pt-2 text-center",
   };
 
@@ -31,12 +29,12 @@ function Carousel() {
     <>
       <Slider {...settings}>
         <div>
-          <Link href="#">
+          <a href="#">
             <img src={newyear} className={styles.image} />
-          </Link>
-          <Link href="#">
-            <h3>Bring on 2024!</h3>
-          </Link>
+          </a>
+          <a href="#">
+            <h3 className={styles.title}>Bring on 2024!</h3>
+          </a>
           <p className={styles.description}>
             Competition wins, consistently high exam results <br />
             and national ensemble placements... what a year 2023 was! <br />
@@ -45,12 +43,12 @@ function Carousel() {
         </div>
 
         <div>
-          <Link href="#">
+          <a href="#">
             <img src={isaac} className={styles.image} />
-          </Link>
-          <Link href="#">
-            <h3>Conservatoire success for Isaac!</h3>
-          </Link>
+          </a>
+          <a href="#">
+            <h3 className={styles.title}>Conservatoire success for Isaac!</h3>
+          </a>
           <p className={styles.description}>
             Isaac has accepted a scholarship offer at The Royal Academy of Music
             to study with Michael Lewin and Stephen Goss.
@@ -58,12 +56,14 @@ function Carousel() {
         </div>
 
         <div>
-          <Link href="#">
+          <a href="#">
             <img src={dates} className={styles.image} />
-          </Link>
-          <Link href="#">
-            <h3>Important dates for your musical diaries</h3>
-          </Link>
+          </a>
+          <a href="#">
+            <h3 className={styles.title}>
+              Important dates for your musical diaries
+            </h3>
+          </a>
           <p className={styles.description}>
             This will be an ever evolving list so keep an eye on it!
           </p>

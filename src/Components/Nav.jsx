@@ -1,5 +1,3 @@
-import { NavLink } from "react-router-dom";
-
 // ICONS
 import { FaNewspaper } from "react-icons/fa6";
 import { FaUserGraduate } from "react-icons/fa";
@@ -16,7 +14,7 @@ const Nav = () => {
 
   const desktopStyles = {
     desktopContainer: "hidden md:hidden sm:hidden lg:block",
-    background: " w-full flex flex-row justify-evenly z-10 bg-[#0c3649]",
+    background: " w-full flex flex-row justify-evenly z-10 bg-[#121b2c]",
     icons: "flex flex-row content-center text-neutral-200 my-12",
     text: "flex items-center text-xl ml-3 tracking-widest hover:text-[#F97316] hover:scale-110 cursor-pointer",
   };
@@ -26,25 +24,25 @@ const Nav = () => {
       {/* MOBILE & TABLET NAV */}
       <div id="mobile-nav" className={styles.mobileContainer}>
         <div className={styles.background}>
-          <NavLink href="/">
+          <a href="/">
             <HiHome size={28} className={styles.icon} />
-          </NavLink>
+          </a>
 
-          <NavLink href="/#news">
+          <a href="/#news">
             <FaNewspaper size={25} className={styles.icon} />
-          </NavLink>
+          </a>
 
-          <NavLink href="/#about">
+          <a href="/#about">
             <FaUserGraduate size={28} className={styles.icon} />
-          </NavLink>
+          </a>
 
-          <NavLink href="/#teaching">
+          <a href="/#teaching">
             <HiMiniMusicalNote size={28} className={styles.icon} />
-          </NavLink>
+          </a>
 
-          <NavLink href="/#contact">
+          <a href="/#contact">
             <HiMail size={28} className={styles.icon} />
-          </NavLink>
+          </a>
         </div>
       </div>
 
@@ -52,51 +50,51 @@ const Nav = () => {
       <div className={desktopStyles.desktopContainer}>
         <div id="desktop-nav" className={desktopStyles.background}>
           <div className={desktopStyles.icons}>
-            <NavLink href="/">
+            <a href="/">
               <h2 className={desktopStyles.text}>
                 <div className="mr-3">
                   <HiHome />
                 </div>
                 HOME
               </h2>
-            </NavLink>
+            </a>
           </div>
 
           <div className={desktopStyles.icons}>
-            <NavLink href="/#news">
+            <a href="/#news">
               <h2 className={desktopStyles.text}>
                 <div className="mr-3">
                   <FaNewspaper />
                 </div>
                 NEWS
               </h2>
-            </NavLink>
+            </a>
           </div>
 
           <div className={desktopStyles.icons}>
-            <NavLink href="/#about">
+            <a href="/#about">
               <h2 className={desktopStyles.text}>
                 <div className="mr-3">
                   <FaUserGraduate />
                 </div>
                 ABOUT
               </h2>
-            </NavLink>
+            </a>
           </div>
 
           <div className={desktopStyles.icons}>
-            <NavLink href="/#teaching">
+            <a href="/#teaching">
               <h2 className={desktopStyles.text}>
                 <div className="mr-3">
                   <HiMiniMusicalNote />
                 </div>
                 TEACHING
               </h2>
-            </NavLink>
+            </a>
           </div>
 
           <div className={desktopStyles.icons}>
-            <NavLink href="/#contact">
+            <a href="/#contact">
               {" "}
               <h2 className={desktopStyles.text}>
                 <div className="mr-3">
@@ -104,7 +102,7 @@ const Nav = () => {
                 </div>
                 CONTACT
               </h2>
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>
