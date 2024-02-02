@@ -5,11 +5,11 @@ import background from "../Assets/music-bg.png";
 import Carousel from "../Components/Carousel";
 
 const styles = {
-  background: " relative w-full h-screen flex justify-end",
+  background: " relative w-full h-screen flex justify-end opacity-60",
   carousel: "absolute w-4/12 my-16 ml-32 top-36 bg-white pb-12 rounded-lg z-10",
-  titleContainer: "absolute bottom-28 bg-[#121b2c] w-full py-8",
-  title: "text-right text-white text-7xl px-28",
-  subtitle: "text-right text-white text-4xl px-28",
+  titleContainer: "absolute bottom-32 w-full py-8",
+  title: "text-right text-[#132A34] text-7xl px-28",
+  subtitle: "text-right text-[#132A34] text-4xl px-28",
 };
 
 const Landing = () => {
