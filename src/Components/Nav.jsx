@@ -13,9 +13,9 @@ const Nav = () => {
   };
 
   const desktopStyles = {
-    desktopContainer: "hidden md:hidden sm:hidden lg:block",
+    desktopContainer: "hidden md:hidden sm:hidden lg:block ",
     background:
-      "fixed w-full flex flex-row justify-evenly z-10 bg-[#132A34] z-40",
+      "fixed w-full flex flex-row justify-evenly z-10 bg-[#132A34] z-40 shadow-lg shadow-slate-600",
     icons: "flex flex-row content-center text-neutral-200 my-12",
     text: "flex items-center text-xl ml-3 tracking-widest hover:text-[#63C0E9] hover:scale-110 cursor-pointer",
   };
