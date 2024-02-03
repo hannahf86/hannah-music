@@ -7,6 +7,7 @@ import About from "./Scenes/About";
 import News from "./Scenes/News";
 import Teaching from "./Scenes/Teaching";
 import Contact from "./Scenes/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Teaching />
       <Contact />
+      <Footer />
     </>
   );
 }

@@ -6,13 +6,15 @@ import theory from "../Assets/MusicTheory.png";
 const Teaching = () => {
   const styles = {
     background: "px-24 pt-24 bg-neutral-100",
-    title: "text-center text-[#121b2c] text-7xl pt-20 pb-16",
-    description: "text-center text-[#121b2c] text-xl leading-8 pb-20",
-    serviceContainer: "grid grid-cols-3 gap-20",
+    title:
+      "text-center text-[#121b2c] md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl xl:pt-20 lg:pt-16 xl:pb-16 lg:pb-12",
+    description:
+      "text-center text-[#121b2c] xl:text-xl lg:text-lg leading-8 xl:pb-20 lg:pb-12",
+    serviceContainer: "grid grid-cols-3 xl:gap-20 lg:gap-8",
     image: "w-4/5 flex m-auto pt-12 pb-4",
-    darkContainer: "bg-[#132A34] text-white",
-    lightContainer: "",
-    serviceTitle: "pt-8 font-bold text-center ",
+    darkContainer: "bg-[#132A34] text-white px-4 lg:px-4",
+    lightContainer: "text-[#121b2c] ",
+    serviceTitle: "xl:pt-8 lg:pt-8 font-bold text-center ",
     listItems: "list-none leading-10 text-center",
   };
 

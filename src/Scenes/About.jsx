@@ -7,16 +7,18 @@ import { GrInstagram, GrYoutube } from "react-icons/gr";
 const About = () => {
   const styles = {
     background: "p-24 bg-neutral-100",
-    title: "text-left text-[#121b2c] text-6xl pt-20 pl-20 pb-8",
+    title:
+      "text-left text-[#121b2c] md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl xl:pt-20 lg:pt-12 pl-20 pb-8",
     container: "flex flex-row",
     bio: "leading-8 text-justify pl-20",
     sidebar: "bg-[#132A34] w-1/3 text-white",
     image: "w-2/3 flex m-auto pt-16 pb-4",
     description: "w-2/3 right-0",
-    sideTitle: "pl-12 pt-8 font-bold",
-    sideList: "list-none pl-12 leading-10",
-    socialsContainer: "pl-12 flex flex-row",
+    sideTitle: "px-12 pt-8 font-bold",
+    sideList: "list-none px-12 xl:leading-10 lg:leading-6",
+    socialsContainer: "px-12 flex flex-row",
     socialsIcons: "pr-8 pt-16 hover:text-[#63C0E9] cursor-pointer",
+    listItem: "lg:pt-3",
   };
 
   return (
@@ -31,17 +33,21 @@ const About = () => {
             <div>
               <h3 className={styles.sideTitle}>Qualifications</h3>
               <div className={styles.sideList}>
-                <li>MA Music Education: Instrumental and Vocal Tuition</li>
-                <li>BA Music Technology</li>
-                <li>ATCL Guitar</li>
+                <li className={styles.listItem}>
+                  MA Music Education: Instrumental and Vocal Tuition
+                </li>
+                <li className={styles.listItem}>BA Music Technology</li>
+                <li className={styles.listItem}>ATCL Guitar</li>
               </div>
 
               <h3 className={styles.sideTitle}>Memberships & Other Info</h3>
               <div className={styles.sideList}>
-                <li>Musicians Union Member</li>
-                <li>Full DBS</li>
-                <li>First Aid Training</li>
-                <li>NSPCC Safeguarding and Child Protection</li>
+                <li className={styles.listItem}>Musicians Union Member</li>
+                <li className={styles.listItem}>Full DBS</li>
+                <li className={styles.listItem}>First Aid Training</li>
+                <li className={styles.listItem}>
+                  NSPCC Safeguarding and Child Protection
+                </li>
               </div>
             </div>
 
@@ -70,7 +76,7 @@ const About = () => {
                 </a>
               </div> */}
             </div>
-            <div className="pb-12"></div>
+            <div className="xl:pb-12 lg:pb-8"></div>
           </div>
 
           <div id="description" className={styles.description}>
