@@ -9,7 +9,6 @@ const Teaching = () => {
     title: "text-center text-[#121b2c] text-7xl pt-20 pb-16",
     description: "text-center text-[#121b2c] text-xl leading-8 pb-20",
     serviceContainer: "grid grid-cols-3 gap-20",
-    serviceItem: "",
     image: "w-4/5 flex m-auto pt-12 pb-4",
     darkContainer: "bg-[#132A34] text-white",
     lightContainer: "",

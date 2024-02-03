@@ -10,7 +10,7 @@ const Contact = () => {
   const styles = {
     background: "h-full bg-white ",
     title:
-      "text-center text-7xl md:text-5xl lg:text-7xl pt-12 lg:pt-40 md:pt-16 py-12 text-[#252525]",
+      "text-center text-7xl md:text-5xl lg:text-7xl pt-12 lg:pt-24 md:pt-16 py-12 text-[#252525]",
     description:
       "text-[#252525] text-center text-md md:text-lg mx-16 mb-8 md:mb-16 lg:mb-12",
     form: "flex flex-col justify-center w-[min(100%,20rem)] lg:w-[min(100%,38rem)] md:w-[min(100%,24rem)] mx-auto",
@@ -49,7 +49,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className={styles.background}>
-      <h1 className={styles.title}>CONTACT</h1>
+      <h1 className={styles.title}>Contact</h1>
 
       <p className={styles.description}>
         Please get in touch if you have any questions.
@@ -89,7 +89,7 @@ const Contact = () => {
       </form>
       <ToastContainer />
 
-      <div className="pb-24"></div>
+      <div className="pb-40"></div>
     </div>
   );
 };
