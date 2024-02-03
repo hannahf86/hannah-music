@@ -3,6 +3,8 @@ import { useRef } from "react";
 
 // libraries
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const styles = {
@@ -42,6 +44,9 @@ const Contact = () => {
       );
   };
 
+  // TOAST
+  const notify = () => toast("Thanks very much! Your email has been sent!");
+
   return (
     <div id="contact" className={styles.background}>
       <h1 className={styles.title}>CONTACT</h1>
@@ -75,8 +80,14 @@ const Contact = () => {
           required
           maxLength={5000}
         />
-        <input type="submit" value="Send" className={styles.button} />
+        <input
+          type="submit"
+          value="Send"
+          className={styles.button}
+          onClick={notify}
+        />
       </form>
+      <ToastContainer />
 
       <div className="pb-24"></div>
     </div>
