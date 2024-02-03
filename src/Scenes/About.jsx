@@ -1,6 +1,9 @@
 // images
 import hannah from "../Assets/profile-pic.jpg";
 
+// icons
+import { GrInstagram, GrYoutube } from "react-icons/gr";
+
 const About = () => {
   const styles = {
     background: "p-24 bg-neutral-100",
@@ -12,6 +15,8 @@ const About = () => {
     description: "w-2/3 right-0",
     sideTitle: "pl-12 pt-8 font-bold",
     sideList: "list-none pl-12 leading-10",
+    socialsContainer: "pl-12 flex flex-row",
+    socialsIcons: "pr-8 pt-16 hover:text-[#63C0E9] cursor-pointer",
   };
 
   return (
@@ -33,11 +38,37 @@ const About = () => {
 
               <h3 className={styles.sideTitle}>Memberships & Other Info</h3>
               <div className={styles.sideList}>
-                <li>Musicians Union</li>
+                <li>Musicians Union Member</li>
                 <li>Full DBS</li>
                 <li>First Aid Training</li>
                 <li>NSPCC Safeguarding and Child Protection</li>
               </div>
+            </div>
+
+            <div id="socials" className={styles.socialsContainer}>
+              <div className={styles.socialsIcons}>
+                <a
+                  href="https://www.instagram.com/hannahfeehanmusic/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GrInstagram size={28} />
+                </a>
+              </div>
+              <div className={styles.socialsIcons}>
+                <a
+                  href="https://www.youtube.com/@hannah-musicteacher"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GrYoutube size={28} />
+                </a>
+              </div>
+              {/* <div className={styles.socialsIcons}>
+                <a href="/" target="_blank" rel="noreferrer">
+                  <GrFacebookOption size={28} />
+                </a>
+              </div> */}
             </div>
             <div className="pb-12"></div>
           </div>
