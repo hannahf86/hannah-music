@@ -6,20 +6,20 @@ import { GrInstagram, GrYoutube } from "react-icons/gr";
 
 const About = () => {
   const styles = {
-    background: "p-24 bg-neutral-100",
+    background: "px-24 sm:px-16 bg-neutral-100",
     title:
-      "text-left text-[#121b2c] md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl xl:pt-20 lg:pt-12 md:pt-8 pl-20 pb-8",
+      "text-left text-[#121b2c] sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl xl:pt-20 lg:pt-12 md:pt-8 sm:pt-8 pl-20 pb-8",
     container: "flex flex-row",
-    bio: "leading-8 text-justify pl-20",
+    bio: "leading-8 text-justify pl-20 sm:pl-12",
     sidebar: "bg-[#132A34] w-1/3 text-white",
     image: "w-2/3 flex m-auto pt-16 pb-4",
     description: "w-2/3 right-0",
-    sideTitle: "px-12 pt-8 md:pb-2 font-bold",
+    sideTitle: "px-12 sm:px-6 pt-8 md:pb-2 sm:pb-4 font-bold sm:text-lg",
     sideList:
-      "list-none lg:list-disc md:list-disc sm:list-disc px-12 md:px-8 xl:leading-10 lg:leading-6 md:leading-6",
+      "list-none lg:list-disc md:list-disc sm:list-none px-12 sm:px-6 md:px-8 xl:leading-10 lg:leading-6 md:leading-6",
     socialsContainer: "px-12 flex flex-row",
     socialsIcons: "pr-8 pt-16 hover:text-[#63C0E9] cursor-pointer",
-    listItem: "lg:pt-3 md:pt-3",
+    listItem: "lg:pt-3 md:pt-3 sm:text-sm sm:pb-3",
   };
 
   return (

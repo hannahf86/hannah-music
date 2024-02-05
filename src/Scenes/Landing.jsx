@@ -22,10 +22,11 @@ const styles = {
   carousel:
     " hidden sm:hidden md:hidden lg:block absolute xl:w-2/6 lg:w-1/4 my-16 ml-32 xl:top-36 lg:top-24 bg-white pb-12 rounded-lg z-10",
   titleContainer:
-    "absolute xl:top-80 lg:top-80 md:top-80 xl:pt-56 lg:pt-24 w-full py-8",
+    "absolute xl:top-80 lg:top-80 md:top-80 sm:top-80 xl:pt-56 lg:pt-24 w-full py-8",
   title:
-    "lg:text-right md:text-left text-[#132A34] md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl px-28",
-  subtitle: "lg:text-right md:text-left text-[#132A34] text-4xl px-28",
+    "lg:text-right md:text-left text-[#132A34] sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl px-28",
+  subtitle:
+    "lg:text-right md:text-left text-[#132A34] text-4xl sm:text-3xl px-28",
 };
 
 const Landing = () => {
