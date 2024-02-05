@@ -33,7 +33,7 @@ const Nav = () => {
             <FaNewspaper size={25} className={styles.icon} />
           </a>
 
-          <a href="/#about">
+          <a href="/#mobile-about">
             <FaUserGraduate size={28} className={styles.icon} />
           </a>
 
@@ -73,7 +73,7 @@ const Nav = () => {
           </div>
 
           <div className={desktopStyles.icons}>
-            <a href="/#about">
+            <a href="/#desktop-about">
               <h2 className={desktopStyles.text}>
                 <div className="mr-3">
                   <FaUserGraduate />

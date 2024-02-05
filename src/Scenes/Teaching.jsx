@@ -5,13 +5,13 @@ import theory from "../Assets/Graphics/MusicTheory.png";
 
 const Teaching = () => {
   const styles = {
-    background: "px-24 pt-24 md:pt-12 sm:pt-12 bg-neutral-100",
+    background: "px-24 md:px-12 pt-24 md:pt-12 sm:pt-12 bg-neutral-100",
     title:
       "text-center text-[#121b2c] md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl xl:pt-20 lg:pt-16 xl:pb-16 lg:pb-12  sm:pb-6",
     description:
       "text-center text-[#121b2c] xl:text-xl lg:text-lg sm:text-sm leading-8 xl:pb-20 lg:pb-12 md:py-8 sm:pb-8 sm:px-20",
     serviceContainer:
-      "grid grid-cols-3 sm:grid-cols-1 xl:gap-20 lg:gap-8 md:gap-8 sm:mx-20",
+      "grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 xl:gap-20 lg:gap-8 md:gap-8 sm:mx-20",
     image: "w-4/5 flex m-auto pt-12 pb-4",
     darkContainer: "bg-[#132A34] text-white px-4 lg:px-4 md:px-6",
     lightContainer: "text-[#121b2c] ",
