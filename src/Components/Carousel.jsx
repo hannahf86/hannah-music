@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // IMAGES
-import dates from "../Assets/dates.png";
-import isaac from "../Assets/isaac.png";
-import newyear from "../Assets/newYear.png";
+import dates from "../Assets/NewsItems/dates.png";
+import isaac from "../Assets/NewsItems/isaac.png";
+import newyear from "../Assets/NewsItems/newYear.png";
 
 function Carousel() {
   const styles = {

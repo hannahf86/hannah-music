@@ -1,7 +1,7 @@
 // images
-import guitar from "../Assets/guitars.png";
-import piano from "../Assets/Piano.png";
-import theory from "../Assets/MusicTheory.png";
+import guitar from "../Assets/Graphics/guitars.png";
+import piano from "../Assets/Graphics/Piano.png";
+import theory from "../Assets/Graphics/MusicTheory.png";
 
 const Teaching = () => {
   const styles = {
