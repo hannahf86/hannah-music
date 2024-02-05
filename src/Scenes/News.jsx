@@ -4,9 +4,9 @@ import newYear from "../Assets/NewsItems/newYear.png";
 
 const News = () => {
   const styles = {
-    background: "xl:px-24 lg:px-16 xl:pt-24 lg:pt-12 bg-neutral-100",
+    background: "xl:px-24 lg:px-16 md:px-16 xl:pt-24 lg:pt-12 bg-neutral-100",
     title:
-      "text-center text-[#121b2c] md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl xl:pt-20 lg:pt-20 xl:pb-16 lg:pb-12",
+      "text-center text-[#121b2c] md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl xl:pt-20 lg:pt-20 md:pt-16 xl:pb-16 lg:pb-12 md:pb-16",
     subtitle: "text-center",
   };
 
@@ -14,10 +14,10 @@ const News = () => {
     gridContainer: "grid grid-cols-2 gap-20",
     newsItemContainer: "shadow-lg shadow-slate-300 bg-white rounded-lg",
     title:
-      "text-center xl:text-4xl lg:text-xl font-bold xl:pt-12 lg:pt-8 pb-6 lg:px-12 text-[#121b2c]",
-    description: "xl:px-20 lg:px-12 leading-8 text-justify",
-    image: "flex m-auto xl:w-6/12 lg:w-9/12 pt-12",
-    date: "text-small text-right text-slate-400 pr-20 pt-4 pb-8",
+      "text-center xl:text-4xl lg:text-xl md:text-xl font-bold xl:pt-12 lg:pt-8 md:pt-8 pb-6 px-12 text-[#121b2c]",
+    description: "xl:px-20 lg:px-12 md:px-12 leading-8 text-justify",
+    image: "flex m-auto xl:w-6/12 lg:w-9/12 md:w-8/12 pt-12",
+    date: "text-sm text-right text-slate-400 pr-20 pt-4 pb-8",
   };
 
   return (

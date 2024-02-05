@@ -5,17 +5,17 @@ import theory from "../Assets/Graphics/MusicTheory.png";
 
 const Teaching = () => {
   const styles = {
-    background: "px-24 pt-24 bg-neutral-100",
+    background: "px-24 pt-24 md:pt-12 bg-neutral-100",
     title:
       "text-center text-[#121b2c] md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl xl:pt-20 lg:pt-16 xl:pb-16 lg:pb-12",
     description:
-      "text-center text-[#121b2c] xl:text-xl lg:text-lg leading-8 xl:pb-20 lg:pb-12",
-    serviceContainer: "grid grid-cols-3 xl:gap-20 lg:gap-8",
+      "text-center text-[#121b2c] xl:text-xl lg:text-lg leading-8 xl:pb-20 lg:pb-12 md:py-8",
+    serviceContainer: "grid grid-cols-3 xl:gap-20 lg:gap-8 md:gap-8",
     image: "w-4/5 flex m-auto pt-12 pb-4",
-    darkContainer: "bg-[#132A34] text-white px-4 lg:px-4",
+    darkContainer: "bg-[#132A34] text-white px-4 lg:px-4 md:px-6",
     lightContainer: "text-[#121b2c] ",
-    serviceTitle: "xl:pt-8 lg:pt-8 font-bold text-center ",
-    listItems: "list-none leading-10 text-center",
+    serviceTitle: "xl:pt-8 lg:pt-8 md:pt-12 pb-4 font-bold text-center ",
+    listItems: "list-none text-center",
   };
 
   return (
@@ -40,33 +40,33 @@ const Teaching = () => {
             <div>
               <h3 className={styles.serviceTitle}>Instruments</h3>
               <div className={styles.listItems}>
-                <li>Classical Guitar</li>
-                <li>Electric Guitar</li>
-                <li>Acoustic Guitar</li>
-                <li>Blues Guitar</li>
-                <li>Ukulele</li>
+                <li className="pb-2">Classical Guitar</li>
+                <li className="pb-2">Electric Guitar</li>
+                <li className="pb-2">Acoustic Guitar</li>
+                <li className="pb-2">Blues Guitar</li>
+                <li className="pb-2">Ukulele</li>
               </div>
             </div>
 
             <div>
               <h3 className={styles.serviceTitle}>Services</h3>
               <div className={styles.listItems}>
-                <li>Playing for fun!</li>
-                <li>Graded Exams</li>
-                <li>GCSE Performance Preparation</li>
-                <li>A level Performance Preparation</li>
-                <li>Undergraduate Performance Preparation</li>
+                <li className="pb-2">Playing for fun!</li>
+                <li className="pb-2">Graded Exams</li>
+                <li className="pb-2">GCSE Performance Preparation</li>
+                <li className="pb-2">A level Performance Preparation</li>
+                <li className="pb-2">Undergraduate Performance Preparation</li>
               </div>
             </div>
 
             <div>
               <h3 className={styles.serviceTitle}>Exam Boards</h3>
               <div className={styles.listItems}>
-                <li>Music Teachers Board (MTB)</li>
-                <li>ABRSM</li>
-                <li>Trinity College London</li>
-                <li>London College of Music / LCM</li>
-                <li>Rockschool</li>
+                <li className="pb-2">Music Teachers Board (MTB)</li>
+                <li className="pb-2">ABRSM</li>
+                <li className="pb-2">Trinity College London</li>
+                <li className="pb-2">London College of Music / LCM</li>
+                <li className="pb-2">Rockschool</li>
               </div>
             </div>
             <div className="pb-12"></div>
@@ -80,21 +80,21 @@ const Teaching = () => {
             <div>
               <h3 className={styles.serviceTitle}>Services</h3>
               <div className={styles.listItems}>
-                <li>Playing for fun!</li>
-                <li>Graded Exams</li>
-                <li>GCSE Performance Preparation</li>
-                <li>A level Performance Preparation</li>
+                <li className="pb-2">Playing for fun!</li>
+                <li className="pb-2">Graded Exams</li>
+                <li className="pb-2">GCSE Performance Preparation</li>
+                <li className="pb-2">A level Performance Preparation</li>
               </div>
             </div>
 
             <div>
               <h3 className={styles.serviceTitle}>Exam Boards</h3>
               <div className={styles.listItems}>
-                <li>Music Teachers Board (MTB)</li>
-                <li>ABRSM</li>
-                <li>Trinity College London</li>
-                <li>London College of Music / LCM</li>
-                <li>Rockschool</li>
+                <li className="pb-2">Music Teachers Board (MTB)</li>
+                <li className="pb-2">ABRSM</li>
+                <li className="pb-2">Trinity College London</li>
+                <li className="pb-2">London College of Music / LCM</li>
+                <li className="pb-2">Rockschool</li>
               </div>
             </div>
             <div className="pb-12"></div>
@@ -108,26 +108,28 @@ const Teaching = () => {
             <div>
               <h3 className={styles.serviceTitle}>Services</h3>
               <div className={styles.listItems}>
-                <li>Music Theory Exams</li>
-                <li>Music Teachers Board Theory Exams</li>
-                <li>GCSE Music Revision, all exam boards</li>
-                <li>A Level Music Revision, all exam boards</li>
-                <li>Harmony and Analysis</li>
-                <li>Music History</li>
+                <li className="pb-2">Music Theory Exams</li>
+                <li className="pb-2">Music Teachers Board Theory Exams</li>
+                <li className="pb-2">GCSE Music Revision, all exam boards</li>
+                <li className="pb-2">
+                  A Level Music Revision, all exam boards
+                </li>
+                <li className="pb-2">Harmony and Analysis</li>
+                <li className="pb-2">Music History</li>
               </div>
             </div>
 
             <div>
               <h3 className={styles.serviceTitle}>Exam Boards</h3>
               <div className={styles.listItems}>
-                <li>Music Teachers Board (MTB)</li>
-                <li>ABRSM</li>
-                <li>Trinity College London</li>
-                <li>London College of Music / LCM</li>
-                <li>Rockschool</li>
-                <li>AQA</li>
-                <li>Eduqas</li>
-                <li>Pearson</li>
+                <li className="pb-2">Music Teachers Board (MTB)</li>
+                <li className="pb-2">ABRSM</li>
+                <li className="pb-2">Trinity College London</li>
+                <li className="pb-2">London College of Music / LCM</li>
+                <li className="pb-2">Rockschool</li>
+                <li className="pb-2">AQA</li>
+                <li className="pb-2">Eduqas</li>
+                <li className="pb-2">Pearson</li>
               </div>
             </div>
             <div className="pb-12"></div>

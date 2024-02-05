@@ -9,7 +9,7 @@ const Nav = () => {
     mobileContainer: "lg:hidden",
     background:
       "flex justify-center justify-evenly items-center fixed bottom-0 left-0 w-full bg-[#132A34] z-40",
-    icon: "text-neutral-200 active:text-[#F97316] active:scale-110 my-6 mx-6",
+    icon: "text-neutral-200 active:text-[#63C0E9] active:scale-110 my-6 mx-6",
   };
 
   const desktopStyles = {
