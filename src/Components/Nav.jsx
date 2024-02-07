@@ -33,7 +33,7 @@ const Nav = () => {
             <FaNewspaper size={25} className={styles.icon} />
           </a>
 
-          <a href="/#mobile-about">
+          <a href="/#about">
             <FaUserGraduate size={28} className={styles.icon} />
           </a>
 

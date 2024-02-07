@@ -22,7 +22,7 @@ const styles = {
   carousel:
     " hidden sm:hidden md:hidden lg:block absolute xl:w-2/6 lg:w-1/4 my-16 ml-32 xl:top-36 lg:top-24 bg-white pb-12 rounded-lg z-10",
   titleContainer:
-    "absolute top-80 xl:top-80 lg:top-80 md:top-80 sm:top-80 pt-32 xl:pt-56 lg:pt-24 w-full ",
+    "absolute top-80 top-40 xl:top-80 lg:top-60 md:top-60 sm:top-60 pt-32 xl:pt-56 lg:pt-24 w-full ",
   title:
     " text-left lg:text-right md:text-left text-[#132A34] sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl px-12 md:px-28",
   subtitle:

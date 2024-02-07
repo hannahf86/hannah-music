@@ -12,13 +12,13 @@ const News = () => {
 
   const newsStyles = {
     gridContainer:
-      "grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 xl:gap-20 lg:gap-20 md:gap-12 sm:grid-cols-1",
+      "grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 xl:gap-12 lg:gap-12 md:gap-12 sm:grid-cols-1",
     newsItemContainer:
-      "shadow-lg shadow-slate-300 bg-white rounded-lg mx-20 sm:mx-20",
+      "shadow-lg shadow-slate-300 bg-white rounded-lg mx-12 mb-12 sm:mx-12 md:mx-0 lg:mx-0 xl:mx-0 sm:mb-12 md:mb-0 lg:mb-0 xl:mb-0",
     title:
       "text-center text-2xl xl:text-4xl lg:text-xl md:text-xl font-bold pt-8 xl:pt-12 lg:pt-8 md:pt-8 sm:pt-8 pb-6 px-12 text-[#121b2c]",
     description:
-      " px-12 xl:px-20 lg:px-12 md:px-12 sm:mx-16 leading-8 text-justify",
+      " px-12 xl:px-8 lg:px-12 md:px-12 sm:px-16 leading-8 text-justify",
     image: "flex m-auto w-8/12 xl:w-6/12 lg:w-9/12 md:w-8/12 sm:w-8/12 pt-12",
     date: "text-sm text-right text-slate-400 pr-20 pt-4 pb-8",
   };
