@@ -1,6 +1,6 @@
 const Footer = () => {
   const styles = {
-    text: "text-zinc-400 text-center py-6 bg-[#132A34]",
+    text: "text-sm text-zinc-400 text-center py-6 bg-[#132A34] pb-32 px-12",
   };
 
   return (

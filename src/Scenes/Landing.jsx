@@ -1,42 +1,41 @@
 // IMAGES
-import large from "../Assets/Backgrounds/large-bg.png";
-import tabletBG from "../Assets/Backgrounds/medium-bg.png";
-import smallBG from "../Assets/Backgrounds/small-bg.png";
-import mobileBG from "../Assets/Backgrounds/mobile-bg.png";
+import full from "../Assets/Backgrounds/bg-full.png";
+import md from "../Assets/Backgrounds/bg-lg.png";
+import sm from "../Assets/Backgrounds/bg-md.png";
+import mobile from "../Assets/Backgrounds/bg-mobile.png";
 
 // COMPONENTS
 import Carousel from "../Components/Carousel";
 
 const backgroundStyles = {
-  large:
-    "relative object-cover xl:pt-32 lg:pt-20 flex justify-end opacity-60 hidden md:hidden sm:hidden lg:block",
+  full: "relative object-cover xl:pt-32 lg:pt-20 flex justify-end opacity-60 hidden md:hidden sm:hidden lg:block",
   medium:
     "relative object-cover flex justify-end opacity-60 hidden md:block sm:hidden lg:hidden",
   small:
-    "relative object-cover flex justify-end opacity-60 hidden md:hidden sm:block lg:hidden",
+    "relative object-cover flex justify-end opacity-60 hidden sm:block lg:hidden md:hidden min-[480]:hidden",
   mobile:
-    "relative object-cover opacity-60 block md:hidden sm:hidden lg:hidden",
+    "relative object-cover opacity-60 block sm:hidden lg:hidden md:hidden",
 };
 
 const styles = {
   carousel:
-    " hidden sm:hidden md:hidden lg:block absolute xl:w-2/6 lg:w-1/4 my-16 ml-32 xl:top-36 lg:top-24 bg-white pb-12 rounded-lg z-10",
+    " hidden sm:hidden md:hidden lg:block absolute xl:w-2/6 lg:w-1/4 my-16 ml-32 xl:top-24 lg:top-24 bg-white pb-12 rounded-lg z-10",
   titleContainer:
-    "absolute top-80 top-40 xl:top-80 lg:top-60 md:top-60 sm:top-60 pt-32 xl:pt-56 lg:pt-24 w-full ",
+    "absolute top-20 xl:top-60 lg:top-80 md:top-20 sm:top-8 pt-32 xl:pt-56 lg:pt-24 w-full ",
   title:
-    " text-left lg:text-right md:text-left text-[#132A34] sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl px-12 md:px-28",
+    " text-left lg:text-right md:text-left text-[#132A34] text-5xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl px-16",
   subtitle:
-    "lg:text-right md:text-left text-[#132A34] text-4xl sm:text-3xl px-12 md:px-28",
+    "lg:text-right md:text-left text-[#132A34] text-4xl sm:text-3xl px-16",
 };
 
 const Landing = () => {
   return (
     <div id="/">
       <div id="background-image">
-        <img src={large} className={backgroundStyles.large} />
-        <img src={tabletBG} className={backgroundStyles.medium} />
-        <img src={smallBG} className={backgroundStyles.small} />
-        <img src={mobileBG} className={backgroundStyles.mobile} />
+        <img src={full} className={backgroundStyles.full} />
+        <img src={md} className={backgroundStyles.medium} />
+        <img src={sm} className={backgroundStyles.small} />
+        <img src={mobile} className={backgroundStyles.mobile} />
       </div>
 
       <div id="carousel" className={styles.carousel}>

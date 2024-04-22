@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // IMAGES
-import dates from "../Assets/NewsItems/dates.png";
 import isaac from "../Assets/NewsItems/isaac.png";
 import newyear from "../Assets/NewsItems/newYear.png";
+import guitarGroup from "../Assets/NewsItems/guitarGroup.png";
 
 function Carousel() {
   const styles = {
@@ -28,7 +28,7 @@ function Carousel() {
   return (
     <>
       <Slider {...settings}>
-        <div>
+        <div className="px-4">
           <a href="#">
             <img src={newyear} className={styles.image} />
           </a>
@@ -37,7 +37,7 @@ function Carousel() {
           </a>
         </div>
 
-        <div>
+        <div className="px-4">
           <a href="#">
             <img src={isaac} className={styles.image} />
           </a>
@@ -46,9 +46,9 @@ function Carousel() {
           </a>
         </div>
 
-        <div>
+        <div className="px-4">
           <a href="#">
-            <img src={dates} className={styles.image} />
+            <img src={guitarGroup} className={styles.image} />
           </a>
           <a href="#">
             <h3 className={styles.title}>

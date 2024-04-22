@@ -48,7 +48,50 @@ const About = () => {
             <div className={mobileStyles.image}>
               <img src={hannah} />
             </div>
-            <p>Coming soon!</p>
+            <p>
+              Hannah began studying music at the age of 3, starting with piano
+              and violin.
+              <br />
+              <br />
+              As a child, she competed in many music competitions, masterclasses
+              and courses. These experiences gave her invaluable knowledge and
+              understanding that she would later use in her professional career
+              when helping students succeed.
+              <br />
+              <br />
+              By the age of 18, Hannah had moved on from her classical training
+              and was playing in a pop punk band, supporting major acts across
+              the country, including the award winning song-writer Amanda Ghost,
+              Pigeon Detectives, Elliot Minor and The Wombats.
+              <br />
+              <br />
+              At the age of 19, Hannah undertook some work experience as a
+              guitar teacher at the then, prestigious music department of
+              Bootham School in York. Having impressed all round, Hannah was
+              offered the job permanently and flourished as a music educator
+              since then, creating opportunities for her students every chance
+              she could.
+              <br />
+              <br />
+              Described as a conscientious and empathic teacher, Hannah always
+              puts the needs of her students first, helping them achieve their
+              goals. These have ranged from top marks in GCSE and A level
+              coursework, passing music exams with top marks, audition sucess
+              for national ensembles, participating in masterclasses with world
+              renowned musicians, playing Zak in The School of Rock on the West
+              End, and gaining scholarships in the world&apos;s top
+              conservatoires.
+              <br />
+              <br />
+              When asked what her career highlights have been, Hannah states
+              that, although it may sound cheesey, she loves the positive
+              relationships she has formed with many students over the last
+              (almost) two decades.
+              <br />
+              <br />
+              Hannah continues to teach all styles of guitar, piano and music
+              theory. She also offers assistance with GCSE and A level music.
+            </p>
           </div>
 
           <div className={mobileStyles.bottomBar}>
@@ -59,7 +102,6 @@ const About = () => {
                   MA Music Education: Instrumental and Vocal Tuition
                 </li>
                 <li className={mobileStyles.listItem}>BA Music Technology</li>
-                <li className={mobileStyles.listItem}>ATCL Guitar</li>
               </div>
 
               <h3 className={mobileStyles.bottomTitle}>
@@ -167,44 +209,50 @@ const About = () => {
               <h1 className={styles.title}>About Hannah</h1>
               <div className={styles.bio}>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Hannah began studying music at the age of 3, starting with
+                  piano and violin.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  As a child, she competed in many music competitions,
+                  masterclasses and courses. These experiences gave her
+                  invaluable knowledge and understanding that she would later
+                  use in her professional career when helping students succeed.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  By the age of 18, Hannah had moved on from her classical
+                  training and was playing in a pop punk band, supporting major
+                  acts across the country, including the award winning
+                  song-writer Amanda Ghost, Pigeon Detectives, Elliot Minor and
+                  The Wombats.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  At the age of 19, Hannah undertook some work experience as a
+                  guitar teacher at the then, prestigious music department of
+                  Bootham School in York. Having impressed all round, Hannah was
+                  offered the job permanently and flourished as a music educator
+                  since then, creating opportunities for her students every
+                  chance she could.
+                  <br />
+                  <br />
+                  Described as a conscientious and empathic teacher, Hannah
+                  always puts the needs of her students first, helping them
+                  achieve their goals. These have ranged from top marks in GCSE
+                  and A level coursework, passing music exams with top marks,
+                  audition sucess for national ensembles, participating in
+                  masterclasses with world renowned musicians, playing Zak in
+                  The School of Rock on the West End, and gaining scholarships
+                  in the world&apos;s top conservatoires.
+                  <br />
+                  <br />
+                  When asked what her career highlights have been, Hannah states
+                  that, although it may sound cheesey, she loves the positive
+                  relationships she has formed with many students over the last
+                  (almost) two decades.
+                  <br />
+                  <br />
+                  Hannah continues to teach all styles of guitar, piano and
+                  music theory. She also offers assistance with GCSE and A level
+                  music.
                 </p>
               </div>
             </div>

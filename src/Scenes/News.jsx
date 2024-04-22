@@ -1,6 +1,7 @@
 // images
 import isaac from "../Assets/NewsItems/isaac.png";
 import newYear from "../Assets/NewsItems/newYear.png";
+import guitarGroup from "../Assets/NewsItems/guitarGroup.png";
 
 const News = () => {
   const styles = {
@@ -28,9 +29,21 @@ const News = () => {
       <div id="news" className={styles.background}>
         <h1 className={styles.title}>News</h1>
 
-        {/* DESKTOP - NEWS GRID */}
+        {/* NEWS GRID */}
         <div id="content" className={newsStyles.gridContainer}>
           {/* NEWS ITEM 01*/}
+
+          <div id="news-01" className={newsStyles.newsItemContainer}>
+            <div className={newsStyles.image}>
+              <img src={guitarGroup} />
+            </div>
+            <h2 className={newsStyles.title}>**New** Group Guitar Lessons</h2>
+            <div className={newsStyles.description}>
+              <p></p>
+            </div>
+            <p className={newsStyles.date}>Apr 2024</p>
+          </div>
+
           <div id="news-01" className={newsStyles.newsItemContainer}>
             <div className={newsStyles.image}>
               <img src={isaac} />
@@ -59,30 +72,8 @@ const News = () => {
           </div>
 
           {/* NEWS ITEM 03*/}
-          <div id="news-01" className={newsStyles.newsItemContainer}>
-            <div className={newsStyles.image}>
-              <img src={isaac} />
-            </div>
-            <h2 className={newsStyles.title}>Another place in NYGE</h2>
-            <div className={newsStyles.description}>
-              <p></p>
-            </div>
-            <p className={newsStyles.date}>Oct 2023</p>
-          </div>
 
           {/* NEWS ITEM 04*/}
-          <div id="news-01" className={newsStyles.newsItemContainer}>
-            <div className={newsStyles.image}>
-              <img src={isaac} />
-            </div>
-            <h2 className={newsStyles.title}>
-              Summer Recital Series Continues
-            </h2>
-            <div className={newsStyles.description}>
-              <p></p>
-            </div>
-            <p className={newsStyles.date}>Aug 2023</p>
-          </div>
         </div>
       </div>
     </>
